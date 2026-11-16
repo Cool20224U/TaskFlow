@@ -1,0 +1,15 @@
+{
+  "name": "taskflow-saas",
+  "version": "0.1.0",
+  "description": "TaskFlow — a multi-tenant team task board SaaS built with zero-dependency Node.js (node:http + node:sqlite)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT"
+}
